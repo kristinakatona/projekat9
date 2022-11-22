@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://kristinakatona.github.io/projekat9/sitemap.xml
