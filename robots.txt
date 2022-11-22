@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow:/gitara/
 
 sitemap: https://kristinakatona.github.io/projekat9/sitemap.xml
