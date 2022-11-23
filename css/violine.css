@@ -5,14 +5,14 @@
     .navigacioni a{
         color:black; text-decoration: none; 
     }
-    ul#linkovi {
+#linkovi {
         float: right;
     }
      li{
         display: inline; 
         margin:8px;
         font-weight: bold;
-        font-size: 20px;padding:15px 15px 0px 0px;
+        font-size: 20px;padding:15px 15px 0 0;
     }
 
     a:active{
@@ -39,8 +39,8 @@
         to{left:100px;}
     }
 
-  .akust{margin:900px 0px 0px 310px; }
-  .elekt{ margin:400px 0px 0px 420px;}
+  .akust{margin:900px 0 0 310px; }
+  .elekt{ margin:400px 0 0 420px;}
     
     div .v{
         height:600px; width:510px; float:left;  margin-top:2%;
@@ -61,7 +61,7 @@
                 margin:0px;
     
             }
-        }
+        
     
         @media screen and(max-width: 561px) {
             .menu-item {
@@ -69,12 +69,12 @@
                 text-align: center;
             }
     
-            ul#linkovi {
+            #linkovi {
                 float: none;
             }
             .navigacioni {
                 height: auto;
                 padding: 10px 0;
             }
-        }
+        }}
 
