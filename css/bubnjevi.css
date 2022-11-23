@@ -1,18 +1,18 @@
 .navigacioni{
-    background-color: beige; width: 100%;height:70px;;
+    background-color: beige; width: 100%;height:70px;
     }
 
     .navigacioni a{
         color:black; text-decoration: none; 
     }
-    ul#linkovi {
+    #linkovi {
         float: right;
     }
      li{
         display: inline; 
         margin:8px;
         font-weight: bold;
-        font-size: 20px;padding:15px 15px 0px 0px;
+        font-size: 20px;padding:15px 15px 0 0;
     }
 
     a:active{
@@ -33,47 +33,45 @@
   .r{
     width: 300px; display: inline; 
   }
-@keyframes mymove{
-    from{left:-100px;}
-    to{left:100px;}
-}
-  .akust{margin:900px 0px 0px 310px; }
-  .palice{ margin:400px 0px 0px 500px;}
+  @keyframes mymove{
+      from{left:-100px;}
+      to{left:100px;}
+  }
+  .akust{margin:900px 0 0 310px; }
+  .elekt{ margin:400px 0 0 420px;}
     
-    div .b{
+    div .k{
         height:600px; width:510px; float:left;  margin-top:2%;
     }
 
-    .bubnjevi{background-color: beige;margin-left: 11%;overflow:scroll; text-align: center;}
-    .paalice{background-color: beige;margin-left: 11%;overflow:scroll; text-align: center}
+    .klaviri{background-color: beige;margin-left: 11%;overflow:scroll; text-align: center;}
+    .eklaviri{background-color: beige;margin-left: 11%;overflow:scroll; text-align: center}
     
     .g{
         font-weight: bold; font-size: 20px; padding-bottom: 30px;
         }
 
-        img{
-            position:relative; animation: mymove 4s infinite;  width: 300px; height: 300px;
-        }
 
+        img{
+            position:relative; animation: mymove 4s infinite; width: 300px; height: 300px;
+        }
         @media screen and(max-width: 656px) {
             ul li {
                 margin:0px;
     
             }
         }
-    
-        @media screen and(max-width: 561px) {
+        @media screen and (max-width: 561px) {
             .menu-item {
                 display: block;
                 text-align: center;
             }
     
-            ul#linkovi {
+            #linkovi {
                 float: none;
             }
             .navigacioni {
                 height: auto;
                 padding: 10px 0;
-            }
-        }     
+            }}
 
